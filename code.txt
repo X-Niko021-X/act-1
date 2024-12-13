@@ -1,0 +1,186 @@
+!DOCTYPE html
+html lang=es
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    meta name=description content=Venta de peluches amigurumis hechos a mano. Encuentra el regalo perfecto.
+    meta name=keywords content=amigurumis, peluches, hechos a mano, tienda
+    meta name=author content=Tu Nombre
+    titleAmigurumis - Peluches Hechos a Manotitle
+    link rel=stylesheet href=httpscdn.jsdelivr.netnpmbootstrap@5.3.0distcssbootstrap.min.css
+    link href=httpsfonts.googleapis.comcss2family=Robotowght@400;700&family=Montserratwght@300;600&family=Dancing+Scriptwght@400;700&display=swap rel=stylesheet
+    style
+        body {
+            font-family 'Roboto', 'Montserrat', sans-serif;
+        }
+        .dark-mode {
+            background-color #121212;
+            color white;
+        }
+        .navbar-brand {
+            font-size 1.5rem;
+            font-weight bold;
+            font-family 'Dancing Script', cursive;
+        }
+        .flex-center {
+            display flex;
+            justify-content center;
+            align-items center;
+        }
+        iframe {
+            width 100%;
+            height 300px;
+            border none;
+        }
+        @media (max-width 768px) {
+            .container {
+                flex-direction column;
+            }
+        }
+    style
+head
+body
+    header
+        nav class=navbar navbar-expand-lg navbar-light bg-light
+            div class=container-fluid
+                a class=navbar-brand href=#Amigurumisa
+                button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbarNav aria-controls=navbarNav aria-expanded=false aria-label=Toggle navigation
+                    span class=navbar-toggler-iconspan
+                button
+                div class=collapse navbar-collapse id=navbarNav
+                    ul class=navbar-nav ms-auto
+                        li class=nav-itema class=nav-link href=#inicioInicioali
+                        li class=nav-itema class=nav-link href=#productosProductosali
+                        li class=nav-itema class=nav-link href=#extrasExtrasali
+                        li class=nav-itema class=nav-link href=#contactoContactoali
+                    ul
+                div
+            div
+        nav
+    header
+
+    main
+        !-- Sección Inicio --
+        section id=inicio class=py-5 text-center bg-light flex-center
+            div class=container
+                h1 class=display-4Bienvenido a Amigurumish1
+                p class=leadEncuentra los mejores peluches hechos a mano, perfectos para regalar o coleccionar.p
+                a href=#productos class=btn btn-primaryVer productosa
+            div
+        section
+
+        !-- Sección Productos --
+        section id=productos class=py-5
+            div class=container
+                h2 class=text-center mb-4Nuestros Productosh2
+                div id=carouselProductos class=carousel slide data-bs-ride=carousel
+                    div class=carousel-inner
+                        div class=carousel-item active
+                            div class=row
+                                div class=col-md-4
+                                    div class=card
+                                        img src=conejito.jpg alt=Amigurumi Conejito
+                                        div class=card-body
+                                            h5 class=card-titleAmigurumi Conejitoh5
+                                            p class=card-textUn tierno conejito hecho a mano. Ideal para niños y coleccionistas.p
+                                            a href=# class=btn btn-primaryComprara
+                                        div
+                                    div
+                                div
+                                div class=col-md-4
+                                    div class=card
+                                        img src=gatito.jpg alt=Amigurumi Gato
+                                        div class=card-body
+                                            h5 class=card-titleAmigurumi Gatoh5
+                                            p class=card-textUn adorable gato para decorar tu espacio favorito.p
+                                            a href=# class=btn btn-primaryComprara
+                                        div
+                                    div
+                                div
+                                div class=col-md-4
+                                    div class=card
+                                        img src=perri.jpg alt=Amigurumi Perrito
+                                        div class=card-body
+                                            h5 class=card-titleAmigurumi Perritoh5
+                                            p class=card-textPerfecto para abrazar y disfrutar. ¡No te quedes sin el tuyo!p
+                                            a href=# class=btn btn-primaryComprara
+                                        div
+                                    div
+                                div
+                            div
+                        div
+                    div
+                    button class=carousel-control-prev type=button data-bs-target=#carouselProductos data-bs-slide=prev
+                        span class=carousel-control-prev-icon aria-hidden=truespan
+                        span class=visually-hiddenAnteriorspan
+                    button
+                    button class=carousel-control-next type=button data-bs-target=#carouselProductos data-bs-slide=next
+                        span class=carousel-control-next-icon aria-hidden=truespan
+                        span class=visually-hiddenSiguientespan
+                    button
+                div
+            div
+        section
+
+        !-- Sección Extras --
+        section id=extras class=py-5 bg-light
+            div class=container
+                h2 class=text-center mb-4Extrash2
+                div class=row
+                    div class=col-md-4
+                        h3Video Promocionalh3
+                        iframe width=560 height=315 src=httpswww.youtube.comembedEYnF3y1TGKYsi=ISOmkIkBYmORvKDK title=YouTube video player frameborder=0 allow=accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share referrerpolicy=strict-origin-when-cross-origin allowfullscreeniframe
+                    div
+                    div class=col-md-4
+                        h3Ubicaciónh3
+                        iframe src=httpswww.google.commapsembedpb=!1m18!1m12!1m3!1d1643.2113695102032!2d-58.71344192412335!3d-34.54285048478881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd0d70cece75%3A0xe4fd6889d164d202!2sB1663%20San%20Miguel%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1734035307269!5m2!1ses-419!2sar width=600 height=450 style=border0; allowfullscreen= loading=lazy referrerpolicy=no-referrer-when-downgradeiframe
+                    div
+                    div class=col-md-4
+                        h3Formulario de Pedidoh3
+                        iframe src=httpsdocs.google.comformsde1FAIpQLScSv5FdLCevKGBDK5jHG2rpuXdhP66Abyo8TQky_lDlMtX1cQviewformembedded=true width=640 height=784 frameborder=0 marginheight=0 marginwidth=0Cargando…iframe
+                    div
+                div
+            div
+        section
+
+        !-- Sección Contacto --
+        section id=contacto class=py-5 bg-light
+            div class=container
+                h2 class=text-center mb-4Contáctanosh2
+                form
+                    div class=mb-3
+                        label for=nombre class=form-labelNombrelabel
+                        input type=text class=form-control id=nombre placeholder=Tu nombre
+                    div
+                    div class=mb-3
+                        label for=email class=form-labelEmaillabel
+                        input type=email class=form-control id=email placeholder=Tu email
+                    div
+                    div class=mb-3
+                        label for=mensaje class=form-labelMensajelabel
+                        textarea class=form-control id=mensaje rows=4 placeholder=Escribe tu mensajetextarea
+                    div
+                    button type=submit class=btn btn-primaryEnviarbutton
+                form
+            div
+        section
+    main
+
+    footer class=py-4 bg-dark text-white text-center
+        p© 2024 Amigurumis. Todos los derechos reservados.p
+        button id=toggleDarkMode class=btn btn-secondaryModo Oscurobutton
+        button id=webmasterInfo class=btn btn-infoInformación del Webmasterbutton
+    footer
+
+    script src=httpscdn.jsdelivr.netnpmbootstrap@5.3.0distjsbootstrap.bundle.min.jsscript
+    script
+        document.querySelector('#toggleDarkMode').addEventListener('click', () = {
+            document.body.classList.toggle('dark-mode');
+        });
+
+        document.querySelector('#webmasterInfo').addEventListener('click', () = {
+            alert('Webmaster Tu Nombre - Email tuemail@ejemplo.com');
+        });
+    script
+body
+html
